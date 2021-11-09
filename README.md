@@ -42,12 +42,12 @@ HINT: Manage your time in order to finish the structure and responsiveness befor
             You will use it to display every album in the page.
             
             You should have consistency in these elements:
-            - The album card
-            - The album cover
-            - The album title
-            - The album group / singer / dj
-            - The album genre
-            - The album duration
+            <!-- - The album card  -->
+            <!-- - The album cover -->
+            <!-- - The album title -->
+            <!-- - The album group / singer / dj -->
+            <!-- - The album genre -->
+            <!-- - The album duration -->
             - etc
 
             create CSS rules to style them if needed
@@ -100,7 +100,7 @@ HINT: Manage your time in order to finish the structure and responsiveness befor
         -->
 
     <!-- EXERCISE 8
-            Implement a footer with some information / social links.
+            <!-- Implement a footer with some information / social links.  -->
         -->
 
     <!-- ############ EXTRA:
