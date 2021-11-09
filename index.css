@@ -2,29 +2,35 @@
 -------------------------------------------------- */
 /* Padding below the footer and lighter body text */
 
-body {
-    padding-top: 3rem;
-    padding-bottom: 3rem;
-    color: #5a5a5a;
-  }
-  
-  .car{
-      margin-bottom: 10px;
-  }
-  
-  /* RESPONSIVE CSS
-  -------------------------------------------------- */
-  
-  .bd-placeholder-img {
-    font-size: 1.125rem;
-    text-anchor: middle;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    user-select: none;
-  }
 
-  @media (min-width: 768px) {
-    .bd-placeholder-img-lg {
-      font-size: 3.5rem;
-    }
+body {
+  /* background: linear-gradient(50deg, rgb(169, 214, 238), white 50% 50%); */
+  height: 70vh;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  color: #5a5a5a;
+}
+.container {
+  margin-top: 5%;
+}
+
+.car {
+  margin-bottom: 10px;
+}
+
+/* RESPONSIVE CSS
+  -------------------------------------------------- */
+
+/* .bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
   }
+} */
