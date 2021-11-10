@@ -21,16 +21,16 @@
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav me-auto mb-2 mb-md-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link"  href="#home">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Reviews</a>
+                <a class="nav-link" href="#reviews">Reviews</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Tapestry</a>
+                <a class="nav-link" href="#tapestry">Tapestry</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link">Chart</a>
+                <a class="nav-link" href="#charts">Chart</a>
               </li>
             </ul>
           
@@ -38,7 +38,7 @@
         </div>
       </nav>
    <!-- main     -->
-      <main class=""> 
+      <main id="home"> 
         <section class="py-5 text-center container">
           <div class="row py-lg-5">
               <!-- som  -->
@@ -212,7 +212,8 @@
     <!-- main    -->
 
     <!-- chart  -->
-    <main role="main" class="container">
+<section id="charts">
+    <main  role="main" class="container">
         <div class="d-flex align-items-center p-3 my-3 text-white-50 bg-purple rounded box-shadow">
           <img src="https://cdn-icons-png.flaticon.com/512/26/26805.png" alt="" width="48" height="48">
           <div class="lh-100">
@@ -234,9 +235,9 @@
             <th scope="col">Artist</th>
           </tr>
         </thead>
-        <tbody>
-          <tr class="table-success">
-            <th scope="row">01</th>
+        <tbody class="">
+          <tr class="table-success border-left">
+            <th scope="row" class="yes">01</th>
             <td>
               <img class="mr-3" src="https://static.billboard.com/files/media/Young-Thug-Jeffery-2016-billboard-1240-compressed.jpg" alt="" width="50" height="50">
               <small class="d-block mt-3">
@@ -348,13 +349,20 @@
           </tr>
         </tbody>
       </table>
+      <!-- experiment  -->
+      <div class="bg-success text-center text-white-50 ">
+          
+        <ul>Experimental
+            <li>something</li>
+        </ul>
+    </div>
+      <!-- experiment  -->
       <small class="d-block text-right mt-3">
         <a href="#">View 100</a>
       </small>
-      
-      
-        <!-- 2nd  -->
+
       </main>
+</section>
     
     <!-- chart  -->
       <footer class="text-center text-muted py-5">

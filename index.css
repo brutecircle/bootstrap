@@ -17,6 +17,12 @@ body {
 .car {
   margin-bottom: 10px;
 }
+.yes{
+    border-radius: 60px;
+    background: cadetblue;
+    /* border: solid; */
+  
+}
 
 /* RESPONSIVE CSS
   -------------------------------------------------- */
